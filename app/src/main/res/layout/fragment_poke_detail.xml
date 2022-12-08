@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient3"
     tools:context=".ui.detail.PokeDetailFragment">
 
     <FrameLayout
@@ -16,7 +17,7 @@
             android:id="@+id/red_background"
             android:layout_width="match_parent"
             android:layout_height="323dp"
-            android:background="@drawable/gradient"/>
+            android:background="@drawable/gradient2" />
 
     </FrameLayout>
 
@@ -77,10 +78,10 @@
         android:id="@+id/Pokemon_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:freezesText="true"
         android:textAllCaps="true"
-        android:textColor="#DCC60C"
+        android:textColor="#E3CC05"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,14 +103,14 @@
 
     <TextView
         android:id="@+id/Pokemon_height"
-        android:layout_marginStart="4dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@id/text_height"
         app:layout_constraintStart_toEndOf="@id/text_height"
         app:layout_constraintTop_toTopOf="@id/text_height"
-        app:layout_constraintBottom_toBottomOf="@id/text_height"
-        tools:text="32"
-        android:textSize="30sp"/>
+        tools:text="32" />
 
     <TextView
         android:id="@+id/text_id"
@@ -125,14 +126,14 @@
 
     <TextView
         android:id="@+id/Pokemon_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@id/text_id"
         app:layout_constraintStart_toEndOf="@id/text_id"
         app:layout_constraintTop_toTopOf="@id/text_id"
-        app:layout_constraintBottom_toBottomOf="@id/text_id"
-        tools:text="25"
-        android:textSize="30sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        tools:text="25" />
 
     <TextView
         android:id="@+id/text_weight"
@@ -148,14 +149,14 @@
 
     <TextView
         android:id="@+id/Pokemon_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:textSize="30sp"
-        tools:text="22.4"
+        app:layout_constraintBottom_toBottomOf="@id/text_weight"
         app:layout_constraintStart_toEndOf="@id/text_weight"
         app:layout_constraintTop_toTopOf="@id/text_weight"
-        app:layout_constraintBottom_toBottomOf="@id/text_weight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        tools:text="22.4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

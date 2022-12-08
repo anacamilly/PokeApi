@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
+            <!--<ImageView
                 android:id="@+id/Pokeball_Image"
                 android:scaleType="centerCrop"
                 android:background="@drawable/pokeball"
@@ -27,30 +27,31 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_width="80dp"
-                android:layout_height="80dp"/>
+                android:layout_height="80dp"/>-->
 
             <TextView
                 android:id="@+id/Pokemon_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_24"
                 android:textAllCaps="true"
                 android:textColor="#FFE500"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@id/Pokeball_Image"
-                app:layout_constraintStart_toEndOf="@id/Pokeball_Image"
-                app:layout_constraintTop_toTopOf="@id/Pokeball_Image"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/frameLayout2"
                 tools:text="PokemonName" />
 
             <FrameLayout
+                android:id="@+id/frameLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/gradient"/>
+                    android:background="@drawable/gradient" />
 
             </FrameLayout>
 
