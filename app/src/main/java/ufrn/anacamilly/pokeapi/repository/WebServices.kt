@@ -13,18 +13,14 @@ import ufrn.anacamilly.pokeapi.data.model.PokeModel
 
 interface WebService {
 
-    /*Puede que aquí necesite modificarlo por lo de la query*/
-    @GET("pokemon?limit=151&offset=0")
+    @GET("pokemon?limit=100000&offset=0")
     suspend fun getPokeList(): PokeItemListModel
     @GET
     suspend fun getPokemon(@Url url:String): PokeModel
 
 }
 
-
 object RetrofitClient {
-
-
     val webservice by lazy {
 
         Retrofit.Builder()
