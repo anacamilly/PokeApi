@@ -1,6 +1,6 @@
 package ufrn.anacamilly.pokeapi.application
 
 object AppConstants {
-    //API
+    //Link da API
     const val baseUrl = "https://pokeapi.co/api/v2/"
 }

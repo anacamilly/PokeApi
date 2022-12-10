@@ -1,5 +1,6 @@
 package ufrn.anacamilly.pokeapi.data.model
 
+
 data class PokeSprites(
     val back_default:String? = null,
     val back_female:String? = null,

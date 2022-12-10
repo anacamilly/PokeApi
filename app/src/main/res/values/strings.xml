@@ -4,5 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="height">Altura: </string>
     <string name="id">Id: </string>
-    <string name="weight">Largura: </string>
+    <string name="weight">Peso: </string>
 </resources>
