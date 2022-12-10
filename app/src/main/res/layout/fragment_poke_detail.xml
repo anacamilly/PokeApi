@@ -19,6 +19,7 @@
             android:layout_height="323dp"
             android:background="@drawable/gradient2" />
 
+
     </FrameLayout>
 
     <!--<FrameLayout
@@ -158,5 +159,24 @@
         app:layout_constraintTop_toTopOf="@id/text_weight"
         tools:text="22.4" />
 
+    <TextView
+        android:id="@+id/text_weight3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/experience"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+        app:layout_constraintStart_toStartOf="@+id/text_weight"
+        app:layout_constraintTop_toBottomOf="@+id/text_weight" />
 
+    <TextView
+        android:id="@+id/pokemon_base_experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_weight3"
+        app:layout_constraintStart_toEndOf="@+id/text_weight3"
+        app:layout_constraintTop_toTopOf="@+id/text_weight3"
+        tools:text="0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

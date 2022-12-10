@@ -45,7 +45,7 @@ class PokeDetailFragment : Fragment() {
                 is Resource.Success -> {
                     Log.d("LiveData","${result.data}")
                     initViews(result.data.id,result.data.height,
-                        result.data.weight,result.data.sprites.front_default.toString())
+                        result.data.weight, result.data.sprites.front_default.toString(), result.data.base_experience)
                 }
                 is Resource.Failure ->{
                     Log.d("LiveData","${result.exception}")
@@ -56,11 +56,12 @@ class PokeDetailFragment : Fragment() {
         })
     }
 
-    private fun initViews(id:Int,height:Double,weight:Double,sprite:String) {
+    private fun initViews(id:Int,height:Double,weight:Double,sprite:String, base_experience:Long) {
         binding.PokemonName.text = name
         binding.PokemonId.text = id.toString()
         binding.PokemonHeight.text = height.toString()
         binding.PokemonWeight.text = weight.toString()
+        binding.pokemonBaseExperience.text = base_experience.toString()
         Picasso.get().load(sprite).into(binding.PokemonImage)
     }
 
