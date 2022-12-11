@@ -14,9 +14,21 @@
 
 # Ferramentas utilizadas:
 <div  display= "inline-block"> 
-    <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png"> 
+    <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png">
     <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png">
 </div>
+
+# Demonstração:
+<div align="center">
+	<div display="inline-block">
+		<div>
+			<img height="400" margin-right="50" src="https://github.com/anacamilly/PokeApi/blob/master/app/src/main/res/drawable/print1.jpg">
+			ㅤㅤㅤ
+			<img height="400" src="https://github.com/anacamilly/PokeApi/blob/master/app/src/main/res/drawable/print2.jpg">
+		</div>
+	</div>
+</div>
+
 
 # Colaboradores:
 
