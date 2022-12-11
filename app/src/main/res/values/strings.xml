@@ -5,5 +5,5 @@
     <string name="height">Altura: </string>
     <string name="id">Id: </string>
     <string name="weight">Peso: </string>
-    <string name="experience">Xp: </string>
+    <string name="experience">EXP:  </string>
 </resources>
