@@ -1,5 +1,5 @@
 <div align="center">
-	
+	<img height="200" src="https://github.com/anacamilly/PokeApi/blob/master/app/src/main/res/drawable/pokeapi.png" alt="PokeAPI">
   
   ![Badge em Concluido](http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge)
 </div>
