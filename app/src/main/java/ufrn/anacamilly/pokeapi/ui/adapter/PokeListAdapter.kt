@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 import ufrn.anacamilly.pokeapi.databinding.PokeItemBinding
 import ufrn.anacamilly.pokeapi.ui.listeners.OnClickListener
 
-
 class PokeListAdapter (var pokeNames:MutableList<String> = mutableListOf(),var listener: OnClickListener):
     RecyclerView.Adapter<PokeListAdapter.PokelistHolder>() {
 

@@ -13,13 +13,17 @@ import ufrn.anacamilly.pokeapi.data.model.PokeModel
 
 interface WebService {
 
+    //pega a lista de pokemons na API
     @GET("pokemon?limit=100000&offset=0")
     suspend fun getPokeList(): PokeItemListModel
+
+    //pega apenas um pokemon por vez na API
     @GET
     suspend fun getPokemon(@Url url:String): PokeModel
 
 }
 
+//
 object RetrofitClient {
     val webservice by lazy {
 

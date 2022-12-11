@@ -21,7 +21,7 @@ import ufrn.anacamilly.pokeapi.repository.RetrofitClient
 import ufrn.anacamilly.pokeapi.ui.adapter.PokeListAdapter
 import ufrn.anacamilly.pokeapi.ui.listeners.OnClickListener
 
-
+// Lista de pokemons
 class PokeListFragment : Fragment(), OnClickListener {
 
     private lateinit var binding:FragmentPokeListBinding
