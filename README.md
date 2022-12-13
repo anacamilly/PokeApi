@@ -10,13 +10,21 @@
 
 * Com um toque simples, o usuário navega para os detalhes daquele item da lista, com uso de imagens.
 
-* Utiliza a biblioteca Retrofit.
+* Utiliza a biblioteca Retrofit e Picasso
 
 # Ferramentas utilizadas:
 <div  display= "inline-block"> 
+        
     <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png">
+             
+    <img height="50" src="https://images.velog.io/images/vector13/post/16daaf87-d286-465b-a8dd-1b6fecf7b87c/retrofit-logo.png">
+      
+    <img height="50" src="https://koenig-media.raywenderlich.com/uploads/2019/06/Picasso-feature.png">
+     
     <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png">
 </div>
+
+<figcaption> Android Studio | Retrofit | Picasso | Kotlin </figcaption>
 
 # Demonstração:
 <div align="center">
