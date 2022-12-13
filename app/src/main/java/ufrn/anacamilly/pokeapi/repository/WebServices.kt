@@ -23,7 +23,7 @@ interface WebService {
 
 }
 
-//
+//pega a url app constants e converte para Gson
 object RetrofitClient {
     val webservice by lazy {
 
